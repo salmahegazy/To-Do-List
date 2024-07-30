@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  background-color: #0060a6;
+  font-family: cursive;
+  color: white;
+  font-size: 2.25vw;
+}
+.controller {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+table,
+td {
+  margin: 50px auto;
+  background-color: white;
+  color: black;
+}
+.x {
+  background-color: #0060a6;
+  color: white;
+}
+.guide {
+  background-color: orangered;
+  color: white;
+}
+table {
+  border: solid white 3px;
+  border-collapse: collapse;
+}
+td {
+  border: solid rgb(24, 24, 24) 1.5px;
+  width: 3vw;
+  height: 3vw;
+}

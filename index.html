@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Multiplication table</h1>
+    <div class="controller">
+      <label for="rangeSelector">Choose a value:</label>
+      <input
+        type="range"
+        id="rangeSelector"
+        step="1"
+        max="20"
+        min="0"
+        value="10"
+        oninput="update_max_value(this.value)"
+      />
+      <p id="selected_value">Selected Value: 10</p>
+    </div>
+    <div id="table"></div>
+    <script src="main.js"></script>
+    <audio id="sfx" src="./sound-effect-twinklesparkle.mp3"></audio>
+  </body>
+</html>
